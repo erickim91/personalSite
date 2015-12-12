@@ -1,0 +1,68 @@
+/* Nav Bar Properties */
+
+.navbar {
+  height: 100px;
+  background: red;
+}
+
+#name{
+  float: left;
+  margin: 30px;
+  margin-left: 80px;
+}
+
+#navButtons {
+  float: right;
+}
+
+.button {
+  margin: 30px;
+  float:right;
+}
+
+/* About me properties */
+
+#aboutMe {
+  background-color: blue;
+  height: 800px;
+}
+
+.introBody {
+  width: 1000px;
+  height: 500px;
+  padding-top: 80px;
+  margin: 0 auto;
+  border-style: dashed;
+}
+
+#myFace {
+  float:left;
+}
+
+.introText {
+  float:left;
+}
+
+/* Projects properties */
+
+#projects {
+  text-align: center;
+  background-color: green;
+  height: 500px;
+}
+
+/* Contact me properties */
+
+#contactMe {
+  text-align: center;
+  background-color: yellow;
+  height: 400px;
+}
+
+#contactContent {
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 500px;
+  background-color: white;
+}
