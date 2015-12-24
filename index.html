@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>Hi there!</title>
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,500,700' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="styles.css">
     <link rel="icon" type="image/png" href="LINKHERE">
     <!-- access JavaScript + jQuery -->
@@ -11,11 +12,11 @@
   <body marginwidth="0" marginheight="0">
 
     <nav class="navbar">
-      <div id="name">ERIC KIM</div>
+      <div id="name"><a href="#aboutMe">ERIC KIM</a></div>
       <div id="navButtons">
-        <div class="button">CONTACT ME</div>
-        <div class="button">PROJECTS</div>
-        <div class="button">ABOUT ME</div>
+        <div class="button"><a href="#contactMe">CONTACT ME</a></div>
+        <div class="button"><a href="#projects">WORK</a></div>
+        <div class="button"><a href="#aboutMe">ABOUT ME</a></div>
       </div>
     </nav>
 
@@ -23,39 +24,71 @@
 
     <div id="aboutMe">
       <div class="introBody">
-        <div id="myFace"><img src="http://i.imgur.com/GWrZc0P.png" alt="picture of my face"/></div>
+        <!-- <div id="myFace"><img src="http://i.imgur.com/GWrZc0P.png" alt="picture of my face" width=90% /></div>
+        <div class="introName">
+          Eric Kim
+        </div>
         <div class="introText">
-          Eric Kim <br>
           BA from New York University <br>
           Marketing, Management, & Communications <br>
           Front end web developer, life-long student and creator
-        </div>
+        </div> -->
         </div>
     </div>
 
 <!-- Projects -->
 
     <div id="projects">
-      Projects
+      <div class="titles">WORK</div>
       <div id="projectGroup">
         <div id="projectTopRow">
-          <div>Project 1</div>
-          <div>Project 2</div>
+          <div class="leftSide">
+            <img src="http://i.imgur.com/87qROHi.png" alt="Jack Black Blackjack" class="images"/>
+            <p class="imgDescription">
+              <strong>JACK BLACK BLACKJACK</strong><br>
+              Jack Black Blackjack is a web-based version of the world’s most popular casino game with a twist. Featuring progressive logic and a reliable AI built using JavaScript, it utilizes a fully-functional simulated deck that can be compiled, dealt, shuffled, and even counted. Front-end interface was constructed with HTML/CSS and animated using jQuery.
+            </p>
+          </div>
+          <div class="rightSide">
+            <img src="http://i.imgur.com/p9BOogp.png" alt="Hip Hop Wiki" class="images"/>
+            <p class="imgDescription">
+              <strong>HIP HOP WIKI</strong><br>
+              Hip Hop Wiki (AKA Thug Life Wiki) is a Full-stack web application in which users can write, edit, and share hip-hop related articles. The wiki page has a login system, along with article & category creation features built using Ruby on Rails, and a back-end database created and managed using PostgreSQL.
+            </p>
+          </div>
         </div>
+        <br>
+        <br>
         <div id="projectBotRow">
-          <div>Project 3</div>
-          <div>Project 4</div>
+          <div class="leftSide">
+            <img src="http://i.imgur.com/KvPEewU.png" alt="Pluto Academy" class="images"/>
+            <p class="imgDescription">
+              <strong>PLUTO ACADEMY</strong><br>
+              A website for an imaginary university featuring separate portals for students, instructors, and administrators, each with different purposes and capabilities. Pluto Academy was a collaborative full-stack project built with Ruby on Rails for front-end functionality, PostgreSQL for back-end database management, and employs the Facebook OAuth API to enable portal login through personal Facebook accounts.
+            </p>
+          </div>
+          <div class="rightSide">
+            <img src="http://i.imgur.com/mnWBlbW.png" alt="Nostalgia Gaming Pack" class="images"/>
+            <p class="imgDescription">
+              <strong>NOSTALGIA GAMING PACK</strong><br>
+              Web-based game collection of timeless arcade classics, constructed from scratch using Phaser.js, a powerful JavaScript framework specifically designed for game creation. Games include Snake, Helicopter, and Breakout, each with unique mechanics and logic, and themed under a unified retro Nintendo Gameboy look.
+            </p>
+          </div>
         </div>
       </div>
     </div>
+
 <!-- Contact Me -->
 
     <div id="contactMe">
-      Contact Me
+      <br>
+      <strong>If you'd like to reach out to me either for work or collaborations, feel free to hit me up through one of the links below!</strong>
       <div id="contactContent">
-        LinkedIn <br>
-        GitHub <br>
-        Email Me
+        <a href="https://www.linkedin.com/in/erickim91"><img class="linkButtons" src="http://imgur.com/w8C3XxX.png" alt="LinkedIn" /></a>
+        <!-- <br> -->
+        <a href="https://github.com/erickim91/"><img class="linkButtons" src="http://imgur.com/C9OkI4D.png" alt="GitHub" /></a>
+        <!-- <br> -->
+        <a href="mailto:erickim91@gmail.com"><img class="linkButtons" src="http://imgur.com/IPKJlug.png" alt="Email" /></a>
       </div>
     </div>
 

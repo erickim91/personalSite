@@ -1,14 +1,56 @@
 /* Nav Bar Properties */
 
-.navbar {
-  height: 100px;
-  background: red;
+body {
+  background-color: #FFC25F;
 }
 
-#name{
+a:link {
+  text-decoration: none;
+  color: black;
+}
+
+strong {
+  font-size: 22px;
+  line-height: 200%;
+}
+
+.navbar {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16pt;
+  font-weight: 500;
+  min-height: 70px;
+  width: 100%;
+  background: #0E0E05;
+  color: white;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.navbar a:link {
+  text-decoration: none;
+  color: white;
+}
+
+.navbar a:visited {
+  text-decoration: none;
+  color: white;
+}
+
+.navbar a:hover {
+  text-decoration: none;
+  color: #FFC25F;
+}
+
+.navbar a:active {
+  text-decoration: none;
+  color: #FFC25F;
+}
+
+#name {
   float: left;
-  margin: 30px;
-  margin-left: 80px;
+  margin: 23px;
+  margin-left: 60px;
 }
 
 #navButtons {
@@ -16,30 +58,50 @@
 }
 
 .button {
-  margin: 30px;
-  float:right;
+  margin-top: 23px;
+  margin-right: 30px;
+  margin-left: 12px;
+  float: right;
 }
 
 /* About me properties */
 
 #aboutMe {
-  background-color: blue;
-  height: 800px;
+  margin-top: 70px;
+  background-image: url('http://i.imgur.com/Z1DhNBO.png');
+  background-position: center center;
+  background-repeat: no-repeat;
+  /*background-attachment: fixed;*/
+  background-size: cover;
+  background-color: #FFF271;
 }
 
 .introBody {
-  width: 1000px;
-  height: 500px;
-  padding-top: 80px;
+  width: 900px;
+  height: 400px;
+  padding-top: 160px;
   margin: 0 auto;
-  border-style: dashed;
 }
 
 #myFace {
   float:left;
 }
 
+.introName {
+  color: #0E0E05;
+  margin-top: 40px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 38pt;
+  float: left;
+}
+
 .introText {
+  color: #0E0E05;
+  margin-top: 8px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18pt;
+  line-height: 140%;
   float:left;
 }
 
@@ -47,15 +109,54 @@
 
 #projects {
   text-align: center;
-  background-color: green;
+  background-color: #FFC25F;
+  /*background-color: #FFAA00;*/
+  height: 1150px;
+}
+
+#projectGroup {
+  height: 700px;
+  width: 920px;
+  margin: 0 auto;
+}
+
+#projectTopRow {
   height: 500px;
+}
+
+#projectBotRow {
+  height: 500px;
+}
+
+.leftSide {
+  float: left;
+}
+
+.rightSide {
+  float: right;
+}
+
+.images {
+  border-style: solid;
+}
+
+.imgDescription {
+  font-family: 'Roboto', sans-serif;
+  width: 400px;
+  text-align: justify;
 }
 
 /* Contact me properties */
 
 #contactMe {
+  margin-top: 20px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400px;
+  font-size: 16pt;
   text-align: center;
-  background-color: yellow;
+  line-height: 140%;
+  background-color: #FFF271;
+  /*background-color: #FFD400;*/
   height: 400px;
 }
 
@@ -64,5 +165,17 @@
   margin-left: auto;
   margin-right: auto;
   width: 500px;
-  background-color: white;
+}
+
+.titles {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size: 30pt;
+}
+
+.linkButtons {
+  margin-left: 20px;
+  margin-right: 20px;
 }
