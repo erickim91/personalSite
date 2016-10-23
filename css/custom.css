@@ -1,0 +1,23 @@
+@font-face {
+    font-family: NewsflashBB;
+    src: url("/assets/NewsflashBB.ttf");
+}
+.parallax-window {
+    min-height: 900px;
+    background: transparent;
+}
+
+.window-wrapper {
+    height: 800px;
+    background: #ffffff;
+}
+
+#hero-container {
+    vertical-align: middle;
+}
+
+#hero-text {
+    color: white;
+    font-family: NewsflashBB;
+    font-size: 60pt;
+}
