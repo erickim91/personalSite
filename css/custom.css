@@ -1,23 +1,182 @@
+/* LOAD CUSTOM FONTS */
 @font-face {
     font-family: NewsflashBB;
     src: url("/assets/NewsflashBB.ttf");
 }
-.parallax-window {
-    min-height: 900px;
-    background: transparent;
+
+/* SIDE NAVIGATION MENU */
+#menu-button {
+    position: fixed;
+    z-index: 1000;
+    margin-left: 24px;
+    margin-top: 24px;
+    width: 120px;
+    transition: margin-left .5s;
+}
+.sidenav {
+    height: 100%; /* 100% Full-height */
+    overflow: hidden;
+    width: 270px;
+    top: 0;
+    left: -270px;
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    background-color: #000000; /* Black*/
+    opacity: 0.7;
+    border-right: 8px solid;
+    border-color: #ffba00;
+    padding-top: 50px; /* Place content 30px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+}
+.sidenav a {
+    padding-left: 30px;
+    padding-bottom: 24px;
+    font-family: "Quicksand";
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 34px;
+    color: #ffffff;
+    display: block;
+    transition: 0.4s
+}
+.sidenav a:hover, .offcanvas a:focus{
+    color: #ffba00;
 }
 
-.window-wrapper {
-    height: 800px;
-    background: #ffffff;
+.gameboy {
+    position: absolute;
+    width: 40%;
+    height: 180px;
+    left: 30%;
+    bottom: 0px;
+    margin-bottom: 50px;
+}
+#gameboy-on {
+    opacity: 0;
+    transition: opacity 0.4s;
+}
+#gameboy-on:hover {
+    opacity: 1;
+}
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 690px) {
+    .sidenav {padding-top: 30px;}
+    .sidenav a {font-size: 40px;}
 }
 
+@media screen and (max-height: 560px) {
+    .sidenav {padding-top: 20px;}
+    .sidenav a {font-size: 24px;}
+}
+#main {
+    transition: margin-left .5s;
+}
+/* SIDE NAVIGATION END */
+
+/*--------------------------------------------------------------*/
+
+/*CSS BEGINS HERE*/
+html {
+    height: 100%;
+}
+body {
+    /* give this to all tags from html to .fullscreen */
+    height:100%;
+    margin:0;
+    font-family: "Quicksand";
+    font-size:28px;
+    color:#ffffff;
+}
+.parallax {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: background-position .5s;
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 28pt;
+}
+
+h3 {
+    font-weight: 700;
+    line-height: 14px;
+}
+
+/* ACTUAL PAGE CSS BEGINS HERE */
+#hero-box {
+    background-image: url("/assets/hero-background-3.jpg");
+    height: 100vh;
+}
 #hero-container {
-    vertical-align: middle;
+    padding-top: 30vh;
+    max-width: 800px;
+}
+#scribble-name {
+    max-width: 600px;
+    display: block;
+    margin: auto;
+}
+#hero-text {
+    color: #ffba00;
+    font-family: "Special Elite";
+    font-size: 80pt;
+    border-bottom: solid 2px #ffba00;
+    padding-bottom: 5px;
+}
+#hero-description {
+    border-top: solid 3px #ffba00;
+    color: #ffffff;
+    margin-top: 4px;
+    padding-top: 10px;
+    font-size: 20pt;
+}
+#about-me-box {
+    background-image: url("/assets/eric-whole-medium-right.png");
+    height: 800px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right;
+    color: #000000;
+    padding-top: 100px;
+}
+#about-me-container {
+    margin-left: 220px;
+    margin-right: 620px;
+    padding-left: 20px;
+    padding-right: 20px;
+    max-width: 48%;
+    background-color: #ffba00;
+}
+#extra-box {
+    background-image: url("/assets/hero-background-2.jpg");
+    height: 800px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #000000;
+    padding-top: 80px;
+}
+#extra-container {
 }
 
-#hero-text {
-    color: white;
-    font-family: NewsflashBB;
-    font-size: 60pt;
+#portfolio-box {
+    background-color: black;
+    height: 100vh;
 }
+#contact-me-box {
+    background-image: url("/assets/big-logo-screen.png");
+    height: 100vh;
+    padding-top: 140px;
+}
+#contact-me-container {
+    background-color: green;
+    min-height: 600px;
+}
+
+.contact-logo {
+    margin: 10px;
+    max-width: 100px;
+}
+/* END OF CSS */

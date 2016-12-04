@@ -1,54 +1,130 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
     <head>
-        <!-- bunch of meta-information -->
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="description" content="Eric Kim's personal website!">
         <meta name="author" content="Eric June Kim">
-        <!-- favicon -->
-        <link rel="icon" href="">
-         <!-- title -->
+        <!-- <link rel="icon" href="/assets/favicon.png"> -->
+        <link rel="icon" href="/assets/favicon-solid.png">
         <title>Eric Kim :: Web-Developer, Software Engineer, Lifelong Student</title>
-        <!-- call bootstrap, jumbotron narrow, and custom stylesheets respectively -->
         <!-- Latest compiled and minified CSS -->
         <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
-        <!-- <link rel="stylesheet" href="css/bootstrap-theme.min.css"> -->
         <link href="css/custom.css" rel="stylesheet">
+<link <link href="https://fonts.googleapis.com/css?family=Arimo|Cabin|Mogra|Monda|Roboto|Quicksand|Special+Elite" rel="stylesheet">
     </head>
     <body>
-        <div class="parallax-window" data-parallax="scroll" data-image-src="/assets/nature.png">
-            <div id="hero-container" class="container">
-                <h1 id="hero-text" class="text-center">Eric Kim</h1>
+        <div id="mySidenav" class="sidenav">
+          <a id="about-me-button">About Me</a>
+          <a id="my-work-button">My Work</a>
+          <a id="contact-me-button">Contact Me</a>
+          <a id="resume-button" href="/resume.pdf">Resume</a>
+          <a id="ramen-talk-button">Ramen-Talk</a>
+          <a id="gameboy-button" href="http://erickim91.github.io/">
+              <img id="gameboy-off" class="gameboy" src="/assets/gameboy-medium.png"/>
+              <img id="gameboy-on" class="gameboy" src="/assets/gameboy-medium-on.png"/>
+          </a>
+        </div>
+        <img id="menu-button" src="/assets/EK-logo-2-fat-solid-stroke.png"/>
+        <div id="main">
+            <div id="hero-box" class="parallax">
+                <div id="hero-container" class="container">
+                    <img id="scribble-name" src="/assets/scribble-name-white.png"/>
+                    <h3 id="hero-description" class="text-center">Web-Developer  |  Software Engineer  |  Lifelong Student</h3>
+                </div>
+            </div>
+            <div id="about-me-box">
+                <div id="about-me-container" class="container">
+                    <h2>Eric Kim</h2>
+                    <h3>New York University 2013</h3>
+                    <h3>B.A. Marketing, Management, & Communications</h3>
+                    <br>
+                    <p>STATS AND SHIT GO HERE. Python, JavaScript, HTML & CSS, Java, jQuery, Ruby on Rails, PowerShell, SQL, AJAX, Photoshop, Illustrator, Premiere, After Effects, Final Cut, Sketchup</p>
+                    <p>Some other technologies I've worked with</p>
+                    <table>
+                        <tr>
+                            <td>Python</td>
+                            <td>STARS</td>
+                            <td>PHOTOSHOP</td>
+                            <td>STARS</td>
+                        </tr>
+                        <tr>
+                            <td>JAVASCRIPT</td>
+                            <td>STARS</td>
+                            <td>ILLUSTRATOR</td>
+                            <td>STARS</td>
+                        </tr>
+                        <tr>
+                            <td>HTML</td>
+                            <td>STARS</td>
+                            <td>PREMIERE</td>
+                            <td>STARS</td>
+                        </tr>
+                        <tr>
+                            <td>CSS</td>
+                            <td>STARS</td>
+                            <td>AFTER EFFECTS</td>
+                            <td>STARS</td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    </table>
+
+                    <div id="stats-column-1" class="stats"></div>
+                    <div id="stats-column-2" class="stats"></div>
+                </div>
+            </div>
+            <div id="portfolio-box">
+                <div id="portfolio-container" class="container">
+                    <h1>More shit goes here</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                </div>
+            </div>
+            <div id="extra-box">
+                <div id="extra-layer">
+                <div id="extra-container" class="container">
+                    <h1>More shit goes here</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                </div>
+            </div>
+            </div>
+            <div id="contact-me-box" class="parallax">
+                <div id="contact-me-container" class="container">
+                    <h1>Contact Me</h1>
+                    <div><img class="contact-logo" src="/assets/email-gold.png"/>Email</div>
+                    <div><img class="contact-logo" src="/assets/linkedin-gold.png"/>LinkedIn</div>
+                    <div><img class="contact-logo" src="/assets/github1-gold.png"/>GitHub</div>
+                    <div><img class="contact-logo" src="/assets/steam-gold.png"/>Steam</div>
+                </div>
             </div>
         </div>
-
-        <div class="window-wrapper">
-            <div class="container">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sed lorem ut sem imperdiet euismod at eu arcu. Mauris sed tempor nibh, ut scelerisque massa. Sed vitae felis congue, eleifend mauris at, dapibus odio. Maecenas viverra nisi interdum turpis sodales euismod. Sed blandit justo ligula, at lobortis metus sagittis quis. Duis in nisi ut nunc suscipit efficitur a non dolor. Donec vitae eros sollicitudin, viverra nisi vel, convallis mauris. Nam sed mauris nisi. Fusce eget purus fringilla, tristique massa in, aliquet risus. Donec lacus odio, vestibulum non mi sed, bibendum gravida justo. Quisque placerat congue tempor. Vivamus nisi nulla, interdum ac mi vitae, ornare lobortis eros. Nulla quis suscipit sem.</p>
-            </div>
-        </div>
-
-        <div class="parallax-window" data-parallax="scroll" data-image-src="/assets/background-1.png"></div>
-
-        <div class="window-wrapper"></div>
-
-        <div class="parallax-window" data-parallax="scroll" data-image-src="/assets/background-2.png"></div>
-
-        <div class="window-wrapper"></div>
-
-        <div class="parallax-window" data-parallax="scroll" data-image-src="/assets/background-3.png"></div>
-
-        <div class="window-wrapper"></div>
-
-
-
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-        <script src="/js/parallax.min.js"></script>
-        <script>
-        $('.parallax-window').parallax();
-        </script>
+        <script src="https://cdn.rawgit.com/nnattawat/flip/master/dist/jquery.flip.min.js"></script>
+        <script src="/js/parallax.js"></script>
+        <script src="/js/script.js"></script>
+        <!-- Analytics -->
+        <script> (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+            })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+            ga('create', 'UA-88103824-1', 'auto');
+            ga('send', 'pageview');</script>
     </body>
 </html>
