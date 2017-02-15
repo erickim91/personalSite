@@ -1,165 +1,117 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <!-- bunch of meta-information -->
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Eric Kim's personal website!">
-    <meta name="author" content="Eric June Kim">
-    <!-- favicon -->
-    <link rel="icon" href="">
-     <!-- title -->
-    <title>Eric Kim :: Web-Developer, Software Engineer, Lifelong Student</title>
-    <!-- call bootstrap, jumbotron narrow, and custom stylesheets respectively -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/jumbotron-narrow.css" rel="stylesheet">
-    <link href="css/custom.css" rel="stylesheet">
-  </head>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="author" content="Eric June Kim">
+        <!-- <link rel="icon" href="/assets/favicon.png"> -->
+        <link rel="icon" href="/assets/favicon-solid.png">
+        <title>Eric Kim :: Web-Developer, Software Engineer, Lifelong Student</title>
+        <!-- Latest compiled and minified CSS -->
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+        <link href="css/custom.css" rel="stylesheet">
+        <link <link href="https://fonts.googleapis.com/css?family=Arimo|Cabin|Mogra|Monda|Roboto|Quicksand|Special+Elite" rel="stylesheet">
+    </head>
+    <body class="noselect">
+        <header class="jumbotron hero">
+                <div class="container">
+                    <div class="row">
+                      <img id="hero-image" src="/assets/name-yellow-solid.png" />
+                        <!-- <p>Eric Kim</p> -->
+                        <!-- <p>Web Developer | Software Engineer | Lifelong Student</p> -->
+                    </div>
+                </div>
+        </header>
+        <nav class="navbar navbar-default">
+            <div class="container">
+                <div class="navbar-header"><a href="#" class="navbar-brand navbar-link"><img id="logo" src="/assets/name-box-small.png"></a>
+                    <!-- This button is only visible when window is small -->
+                    <button data-toggle="collapse" data-target="#navcol-1" class="navbar-toggle collapsed">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <!-- up to here... -->
+                </div>
+                <div class="collapse navbar-collapse" id="navcol-1">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li role="presentation"><a href="#about-me">ABOUT</a></li>
+                        <li role="presentation"><a href="#">WORK</a></li>
+                        <li role="presentation"><a href="#">CONTACT ME</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
 
-  <body>
-    <div class="container">
-      <nav class="navbar navbar-default">
-        <div class="navbar-header">
-          <!-- navbar after collapsing -->
-          <!-- <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button> -->
-          <a class="navbar-brand" href="#">LOGO GOES HERE</a>
-        </div>
-          <!-- navbar before collapsing -->
-        <div id="navbar" class="navbar-collapse collapse">
 
-          <ul class="nav navbar-nav"> <!-- left-side of navbar -->
-            <li><a href="#">About</a></li>
-            <li><a href="#">Contact</a></li>
-            <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
-              <ul class="dropdown-menu">
-                <li><a href="#">Action</a></li>
-                <li><a href="#">Another action</a></li>
-                <li><a href="#">Something else here</a></li>
-                <li role="separator" class="divider"></li>
-                <li class="dropdown-header">Nav header</li>
-                <li><a href="#">Separated link</a></li>
-                <li><a href="#">One more separated link</a></li>
-              </ul>
-            </li>
-          </ul>
 
-          <ul class="nav navbar-nav navbar-right"> <!-- right-side of navbar -->
-            <li class="active"><a href="./">Default <span class="sr-only">(current)</span></a></li>
-            <li><a href="../navbar-static-top/">Static top</a></li>
-            <li><a href="../navbar-fixed-top/">Fixed top</a></li>
-          </ul>
+        <div class="main">
 
-        </div> <!-- pre-collapse navbar ends here -->
-      </nav> <!-- end of nav-bar -->
-      <img class="img-responsive" src="http://i.imgur.com/0xDED7p.png" />
-      <img class="img-responsive" src="http://i.imgur.com/hOYCbOb.png"/>
-      <img class="img-responsive" src="http://i.imgur.com/0xDED7p.png" />
-      <br><br><br>
-      <div class="jumbotron"><img class="img-responsive" src="http://i.imgur.com/8rOpwYe.png" />
-      <h1>Hello, world!</h1>
-      </div>
-      <div>------------------------DIVIDING LINE GOES HERE--------------------------
-      </div>
-      <div>REST OF MATERIALS GO HERE
-      </div>
 
-    </div> <!-- end of container -->
 
-    <!-- scripts and stuff -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
 
-  </body>
+
+
+        <section id="about-me">
+            <div class="container">
+              <blockquote>
+                <p>The exploratory life of a 25 year old</p>
+              </blockquote>
+            <h2 id="hero-text" class="text-center">Hello World!</h2>
+            </div>
+        </section>
+
+
+
+
+
+
+
+        <section id="things-i-made">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <h2>Things I&#39;ve made</h2>
+                        <p>Morbi non mauris massa. Duis elit mauris, malesuada nec suscipit ac, bibendum sed augue. Maecenas condimentum magna gravida, laoreet nunc sed, euismod sem. </p>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="row icon-features">
+                            <div class="col-xs-4 icon-feature"><i class="glyphicon glyphicon-cloud"></i>
+                                <p>Cloud-ready </p>
+                            </div>
+                            <div class="col-xs-4 icon-feature"><i class="glyphicon glyphicon-piggy-bank"></i>
+                                <p>Saves You Money</p>
+                            </div>
+                            <div class="col-xs-4 icon-feature"><i class="glyphicon glyphicon-fire"></i>
+                                <p>Fire Proof</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <footer class="site-footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6">
+                        <h5>Copywrite © 2016 Eric Kim</h5></div>
+                    <div class="col-sm-6 social-icons"><a href="#"><i class="fa fa-facebook"></i></a><a href="#"><i class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-instagram"></i></a></div>
+                </div>
+            </div>
+        </footer>
+
+
+    </div>
+        <!-- SCRIPTS -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <script src="/js/script.js"></script>
+        <!-- GOOGLE ANALYTICS -->
+        <script> (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');ga('create', 'UA-88103824-1', 'auto');ga('send', 'pageview');
+        </script>
+    </body>
 </html>
-
-<!-- old shit begins here
-
-  <body marginwidth="0" marginheight="0">
-
-    <nav class="navbar">
-      <div id="name"><a href="#aboutMe">ERIC KIM</a></div>
-      <div id="navButtons">
-        <div class="button"><a href="#contactMe">CONTACT ME</a></div>
-        <div class="button"><a href="#projects">WORK</a></div>
-        <div class="button"><a href="#aboutMe">ABOUT ME</a></div>
-      </div>
-    </nav>
-
-
-    <div id="aboutMe">
-      <div class="introBody">
-         <div id="myFace"><img src="http://i.imgur.com/GWrZc0P.png" alt="picture of my face" width=90% /></div>
-        <div class="introName">
-          Eric Kim
-        </div>
-        <div class="introText">
-          BA from New York University <br>
-          Marketing, Management, & Communications <br>
-          Front end web developer, life-long student and creator
-        </div>
-        </div>
-    </div>
-
-
-    <div id="projects">
-      <div class="titles">WORK</div>
-      <div id="projectGroup">
-        <div id="projectTopRow">
-          <div class="leftSide">
-            <img src="http://i.imgur.com/87qROHi.png" alt="Jack Black Blackjack" class="images"/>
-            <p class="imgDescription">
-              <strong>JACK BLACK BLACKJACK</strong><br>
-              Jack Black Blackjack is a web-based version of the world’s most popular casino game with a twist. Featuring progressive logic and a reliable AI built using JavaScript, it utilizes a fully-functional simulated deck that can be compiled, dealt, shuffled, and even counted. Front-end interface was constructed with HTML/CSS and animated using jQuery.
-            </p>
-          </div>
-          <div class="rightSide">
-            <img src="http://i.imgur.com/p9BOogp.png" alt="Hip Hop Wiki" class="images"/>
-            <p class="imgDescription">
-              <strong>HIP HOP WIKI</strong><br>
-              Hip Hop Wiki (AKA Thug Life Wiki) is a Full-stack web application in which users can write, edit, and share hip-hop related articles. The wiki page has a login system, along with article & category creation features built using Ruby on Rails, and a back-end database created and managed using PostgreSQL.
-            </p>
-          </div>
-        </div>
-        <br>
-        <br>
-        <div id="projectBotRow">
-          <div class="leftSide">
-            <img src="http://i.imgur.com/KvPEewU.png" alt="Pluto Academy" class="images"/>
-            <p class="imgDescription">
-              <strong>PLUTO ACADEMY</strong><br>
-              A website for an imaginary university featuring separate portals for students, instructors, and administrators, each with different purposes and capabilities. Pluto Academy was a collaborative full-stack project built with Ruby on Rails for front-end functionality, PostgreSQL for back-end database management, and employs the Facebook OAuth API to enable portal login through personal Facebook accounts.
-            </p>
-          </div>
-          <div class="rightSide">
-            <img src="http://i.imgur.com/mnWBlbW.png" alt="Nostalgia Gaming Pack" class="images"/>
-            <p class="imgDescription">
-              <strong>NOSTALGIA GAMING PACK</strong><br>
-              Web-based game collection of timeless arcade classics, constructed from scratch using Phaser.js, a powerful JavaScript framework specifically designed for game creation. Games include Snake, Helicopter, and Breakout, each with unique mechanics and logic, and themed under a unified retro Nintendo Gameboy look.
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
-
-
-    <div id="contactMe">
-      <br>
-      <strong>If you'd like to reach out to me either for work or collaborations, feel free to hit me up through one of the links below!</strong>
-      <div id="contactContent">
-        <a href="https://www.linkedin.com/in/erickim91"><img class="linkButtons" src="http://imgur.com/w8C3XxX.png" alt="LinkedIn" /></a>
-
-        <a href="https://github.com/erickim91/"><img class="linkButtons" src="http://imgur.com/C9OkI4D.png" alt="GitHub" /></a>
-
-        <a href="mailto:erickim91@gmail.com"><img class="linkButtons" src="http://imgur.com/IPKJlug.png" alt="Email" /></a>
-      </div>
-    </div>
-
-  </body>
-  -->

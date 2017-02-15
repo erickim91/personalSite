@@ -1,0 +1,78 @@
+body {
+    padding-top: 100vh;
+    background-color: #454444;
+    color: white;
+}
+header {
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.navbar,
+.main {
+    position: relative;
+}
+
+#logo {
+    max-height: 70px;
+}
+.navbar {
+    margin-top: -100px;
+    background-color: #ffffff;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgba(100,100,100, .3);
+    height: 100px;
+    box-shadow: 0px 2px 6px rgba(0,0,0, .4);
+    border-radius: 0px;
+    margin-bottom: 0px;
+    z-index: 100;
+    font-family: "Quicksand";
+    font-size: 14pt;
+}
+.navbar-scrolled,
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    margin-top: 0px;
+}
+.navbar-collapse {
+    margin-top: 14px;
+}
+.hero {
+    background-color: #454444;
+    margin-bottom: 0px;
+    text-align: center;
+    font-family: serif;
+    /*box-shadow: inset 0px -50px 50px 10px rgba(0,0,0,0.6);*/
+}
+.hero h1 {
+    font-size: 22vh;
+}
+.hero p {
+    margin: 40px;
+}
+
+#hero-text {
+    font-size: 22vh;
+}
+
+#about-me {
+    background-color: #fac645;
+    padding-top: 140px;
+    height: 1000px;
+    font-family: serif;
+    margin-top: -100px;
+}
+
+#things-i-made {
+    background-color: #333333;
+    height: 1300px;
+}
+
+#hero-image {
+  max-height: 74vh;
+}
