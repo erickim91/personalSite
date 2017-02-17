@@ -47,6 +47,7 @@ header {
     margin-bottom: 0px;
     text-align: center;
     font-family: serif;
+
     /*box-shadow: inset 0px -50px 50px 10px rgba(0,0,0,0.6);*/
 }
 .hero h1 {
@@ -56,23 +57,46 @@ header {
     margin: 40px;
 }
 
+#sub-text {
+    font-size: 5vh;
+    font-family: sans-serif;
+    font-style: italic;
+    border-bottom: #fac645 solid 2px;
+}
+
 #hero-text {
-    font-size: 22vh;
+    font-size: 20vh;
 }
 
 #about-me {
     background-color: #fac645;
-    padding-top: 140px;
-    height: 1000px;
+    padding-top: 20vh;
+    height: 60vh;
     font-family: serif;
     margin-top: -100px;
+    background-image: url("/assets/hero-dark-5.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    -moz-box-shadow: inset 0 -10px 10px -10px #000000;
+    -webkit-box-shadow: inset 0 -10px 10px -10px #000000;
+    box-shadow: inset 0 -10px 10px -10px #000000;
 }
 
 #things-i-made {
-    background-color: #333333;
-    height: 1300px;
+    background-color: #2f2f2f;
+    height: 30vh;
+    background-image: url("/assets/construction.png");
+    background-position: bottom;
+    background-repeat: no-repeat;
+}
+
+#under-construction {
+    font-size: 6vh;
+    padding-top: 20px;
+    color: #fac645;
 }
 
 #hero-image {
-  max-height: 74vh;
+  max-height: 76vh;
 }
