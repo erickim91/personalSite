@@ -11,21 +11,21 @@
         <!-- Latest compiled and minified CSS -->
         <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
         <link href="css/custom.css" rel="stylesheet">
-        <link <link href="https://fonts.googleapis.com/css?family=Arimo|Cabin|Mogra|Monda|Roboto|Quicksand|Special+Elite" rel="stylesheet">
+        <link <link href="https://fonts.googleapis.com/css?family=Arimo|Cabin|Mogra|Monda|Raleway:400,500,700|Roboto|Quicksand|Special+Elite" rel="stylesheet">
     </head>
     <body class="noselect">
         <header class="jumbotron hero">
                 <div class="container">
                     <div class="row">
-                      <img id="hero-image" src="/assets/name-yellow-transparent.png" />
-                        <!-- <p>Eric Kim</p> -->
-                        <!-- <p>Web Developer | Software Engineer | Lifelong Student</p> -->
+                      <img id="hero-image" src="/assets/name-yellow-transparent.png">
                     </div>
                 </div>
         </header>
         <nav class="navbar navbar-default">
             <div class="container">
-                <div class="navbar-header"><a href="#" class="navbar-brand navbar-link"><img id="logo" src="/assets/name-box-small.png"></a>
+                    <a href="#" class="navbar-brand navbar-link">
+                        <img id="logo" src="/assets/name-box-small.png">
+                    </a>
                     <!-- This button is only visible when window is small -->
                     <button data-toggle="collapse" data-target="#navcol-1" class="navbar-toggle collapsed">
                         <span class="sr-only">Toggle navigation</span>
@@ -34,43 +34,66 @@
                         <span class="icon-bar"></span>
                     </button>
                     <!-- up to here... -->
-                </div>
                 <div class="collapse navbar-collapse" id="navcol-1">
                     <ul class="nav navbar-nav navbar-right">
                         <li role="presentation"><a href="#about-me">ABOUT</a></li>
-                        <li role="presentation"><a href="#">WORK</a></li>
-                        <li role="presentation"><a href="#">CONTACT ME</a></li>
+                        <li role="presentation"><a href="/resume.pdf">RESUME</a></li>
+                        <li role="presentation"><a href="mailto:erickim91@gmail.com">CONTACT ME</a></li>
                     </ul>
                 </div>
             </div>
         </nav>
-
-
-
         <div class="main">
+            <section id="intro">
+                <div class="container">
+                <p id="sub-text"class="text-center">SEIZING THE DAY, ONE STRUGGLE AT A TIME</p>
+                <h2 id="hero-text" class="text-center">Hello World!</h2>
+                </div>
+            </section>
+            <section id="about-me">
+                <div class="container">
+                    <div class="row">
+                        <div id="big-column-left" class="col-md-6">
+                            <h2 class="column-title">ABOUT ME</h2>
+                            <p class="text-body">
+                            Hi, I'm Eric.
+                            <br>
+                            I'm a 25 year-old programmer currently living in New York City.
+                            <br>
+                            <br>
+                            I graduated from NYU in 2013 with a degree in Marketing, Management, & Communications, but my true passion has always been in tech, learning new skills, and just building all kinds of stuff in general. After working for a few years as a marketing and operations associate, I quit my job on a whim one day to follow my dreams of becoming a programmer, and have been teaching myself a bunch of creative skills since then, such as web-development, software engineering, graphic design, and filmography.
+                            <br>
+                            <br>
+                            It's a bit of a cliché, but I think constant learning and growth are two of the most important things anyone can do for themselves. That being said, I'm always looking to tackle new challenges and build something exciting, so if you're interested in collaborating, feel free shoot me a message (Or if you want to pay me to build you something, that's totally cool too, haha).
+                            <br>
+                            <br>
+                            On a side note, I'm sort of a ramen fanatic (and many other noodle dishes), so if you're into that at all, check out my ramen review blog <a id="ramen-blog-link">here</a> (Coming soon).
+                            </p>
+                        </div>
+                        <div id="big-column-right" class="col-md-5">
+                            <div class="row">
+                                <div class="col-md-8 col-md-offset-2"><img id="face" class="img-responsive" src="/assets/circle-face.png"></div>
+                            </div>
+                            <div class="row current-project">
+                                <h2 class="column-title">CURRENTLY WORKING ON:</h2>
+                                <img id="civic-mirror-logo" src="/assets/CM-Logo-redux.png">
+                                <p class="text-body">
+                                    <b>THE CIVIC MIRROR</b>
+                                    <br>
+                                    <br>
+                                    Currently, I'm working on a front-end overhaul for the Civic Mirror: a game and educational program that simulates a self-sustained country within a classroom to give students a first-hand experience of living life as an active citizen and allowing them to experience the realities and necessities of government and economics in the real world. The Civic Mirror is a product of Action-Ed Learning Resources Inc.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
 
 
 
-
-
-
-        <section id="about-me">
-            <div class="container">
-            <p id="sub-text"class="text-center">SEIZING THE DAY, ONE STRUGGLE AT A TIME</p>
-            <h2 id="hero-text" class="text-center">Hello World!</h2>
-            </div>
-        </section>
-
-
-
-
-
-
-
-        <section id="things-i-made">
-            <div class="container">
+            <!-- <div class="container">
                 <p id="under-construction" class="text-center">- - UNDER CONSTRUCTION - -</p>
-                <!-- <div class="row">
+                <div class="row">
                     <div class="col-md-6">
                         <h2>Things I&#39;ve made</h2>
                         <p>Morbi non mauris massa. Duis elit mauris, malesuada nec suscipit ac, bibendum sed augue. Maecenas condimentum magna gravida, laoreet nunc sed, euismod sem. </p>
@@ -88,16 +111,16 @@
                             </div>
                         </div>
                     </div>
-                </div> -->
-            </div>
-        </section>
+                </div>
+            </div> -->
+
 
 
         <footer class="site-footer">
             <div class="container">
                 <div class="row">
                     <div class="col-sm-6">
-                        <h5>Copywrite © 2016 Eric Kim</h5></div>
+                        <h5>Copyright © 2016 Eric Kim</h5></div>
                     <div class="col-sm-6 social-icons"><a href="#"><i class="fa fa-facebook"></i></a><a href="#"><i class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-instagram"></i></a></div>
                 </div>
             </div>
